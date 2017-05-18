@@ -1,0 +1,79 @@
+.sidebar {
+    position: fixed;
+    width: 100%;
+    background: #DC7B5D;
+    padding: 5vh 2vh;
+    z-index: 99;
+    bottom: 0;
+}
+
+.sidebar a {
+    display: inline-block;
+    padding: 2vh 4vh;
+    border: 1px solid #DF5F38;
+    box-shadow: 0 0 5px #DEA18E;
+}
+
+.section-wrap {
+    position: absolute;
+    height: 100vh;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 100%;
+    background: url(http://4493bz.1985t.com/uploads/allimg/150127/4-15012G52133.jpg) no-repeat;
+}
+
+.content h3 {
+    display: block;
+    padding: 2vh;
+    border-bottom: 1px solid #D3D3D3;
+}
+
+.content p {
+    padding: 1vh;
+}
+
+.text-title {
+    position: relative;
+    padding: 5vh 5vh;
+    background: #34B64B;
+    overflow: hidden;
+}
+
+.text-title h2 {
+    color: #ECECEC;
+}
+
+.text-title small {
+    color: #D8D8D8;
+}
+
+.section-wrap:first-child .text-title {
+    position: relative;
+    padding: 5vh 5vh;
+    background: #8134B6;
+    overflow: hidden;
+}
+
+.section-wrap:first-child .text-title h2 {
+    color: #CBCBCB;
+}
+
+.section-wrap:first-child .text-title small {
+    color: #BAA4C9;
+}
+
+.prev-btn,
+.next-btn {
+    display: inline-block;
+    padding: 1vh 2vh;
+    margin-left: 2vh;
+    border: 1px solid #838282;
+    box-shadow: 0 0 5px #BBB;
+    transition: background 0.5s;
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+    background: #ECECEC;
+}
